@@ -1,0 +1,41 @@
+{
+  "name": "joi-describe-html",
+  "version": "1.0.0",
+  "description": "Turns joi schemas into HTML",
+  "main": "index.js",
+  "engine": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "test": "lab test/specs.test.js",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firstandthird/joi-describe-html.git"
+  },
+  "keywords": [
+    "joi",
+    "describe",
+    "html"
+  ],
+  "author": "First+Third",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/firstandthird/joi-describe-html/issues"
+  },
+  "homepage": "https://github.com/firstandthird/joi-describe-html#readme",
+  "dependencies": {
+    "joi": "^13.3.0"
+  },
+  "devDependencies": {
+    "code": "^5.2.0",
+    "eslint": "^4.19.1",
+    "eslint-config-firstandthird": "^4.3.0",
+    "eslint-plugin-import": "^2.12.0",
+    "lab": "^15.4.5"
+  },
+  "eslintConfig": {
+    "extends": "firstandthird"
+  }
+}
